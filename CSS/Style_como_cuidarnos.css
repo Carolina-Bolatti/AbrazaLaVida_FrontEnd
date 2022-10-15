@@ -1,0 +1,338 @@
+/* 
+ * {
+   padding: 0;
+    box-sizing: border-box;
+    border: 5px outset #183464;
+}
+*/
+
+
+/*.caja1 {
+    width: 400px;
+    height: auto;
+}
+*/
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("../img/BG_img_Base_05.png");
+    }
+  }
+
+/*body, header, main, footer {
+    border: 3px red solid;
+    margin: 0.5rem;
+}
+*/
+
+body {
+    box-sizing: border-box;
+    margin: 0rem;
+    /*border: 5px solid #4586b4;*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("../img/BG_img_Base_05.png");
+    overflow-y: auto;
+    background-size: 100%;
+    min-height: 1000px;
+    min-width: 400px;
+    /*width: 1520px;
+    height: 1120px;*/
+}
+
+header {
+    /*border: 2px orangered solid;*/
+    min-height: auto;  
+    min-width: auto;
+    position: fixed;
+    overflow: auto;
+    float: auto;
+    padding: auto;
+    box-shadow: 0rem 0.5rem 1.5rem 0rem #26313d;
+}
+
+.lighten {
+    background: linear-gradient(#00003d 0%, #4987b3 100%);
+    background-blend-mode: lighten;
+    overflow: auto;
+ }
+
+ /*Menu-Icon*/
+.header-menubar {
+    /*border: 2px violet solid;*/
+    left: auto;
+    position: sticky;
+    width: 740px;
+    height: 50px;
+    display: inline-block;
+}
+
+.header-menubar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-menubar a:hover {
+    color:#ff1f1f;
+    text-decoration: none;
+}
+
+.header-menubar ul {
+    list-style: none;
+}
+
+.header-menubar li {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+}
+
+.header-iconbar {
+    /*border: 2px violet solid;*/
+    right: 2.5%;
+    position: sticky;
+    width: 774px;
+    height: 50px;
+    display: inline-block;
+}
+
+.header-iconbar li {
+    color: #8db4d0;
+    text-decoration: none;
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 9pt;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.8rem 0.2rem 0.2rem 33.5rem;
+}
+
+.header-iconbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-iconbar a:hover {
+    color:#ff1f1f;
+    text-decoration: none;
+}
+
+.header-iconbar ul {
+    list-style: none;
+}
+
+.header-iconbar i {
+    float: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+}
+
+main {
+    min-height: 950px;
+    min-width: 400px;
+    overflow: auto;
+}
+
+/*main div img {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: auto;
+}*/
+
+footer {
+    /*border: 2px fuchsia solid;*/
+    min-height: 50px;
+    min-width: auto;
+    position: relative;
+    box-shadow: 0rem -0.5rem 1.5rem 0rem #26313d;
+}
+
+.lighten1 {
+    background: linear-gradient( #4987b3 0%, #00003d 100%);
+    background-blend-mode: lighten;
+    overflow: auto;
+}
+
+footer div img {
+    max-width: 5%;
+    max-height: 5%;
+    object-fit: auto;
+    display: block;
+    margin: auto;
+    justify-content: middle;
+    align-items: middle;
+}
+
+/*#footer-logo {
+    border: 2px blue solid;
+    scale: 20%;
+    margin: 0.5rem;
+    text-align: center;
+    float: middle;
+}/**/
+
+/* Contenido ppal*/
+main>div {
+    /*border: 2px blue solid;*/
+    height: 350px;
+    min-height: auto; 
+    min-width: 300px;
+    margin: 0rem 2rem 0rem 2rem;
+    float: center;
+    overflow: visible;
+}
+
+main>aside {
+    /*border: 2px blue solid;*/
+    margin: 0rem 2rem 0rem 2rem;
+    height: 350px;
+    float: center;
+    overflow: visible;
+
+}
+
+/*#titulo-ppal {
+    width: 100%;
+
+}*/
+
+/*Seccion texto de Titulo Secundario*/
+.secciones {
+    /*border: 2px violet solid;*/
+    /*outline-offset: 0.2rem #8db4d0;
+    border-radius: 1em;*/
+    text-indent: 1em;
+    font-size: 12.5pt;
+    white-space: pre line;
+    margin: 0rem 0.80rem 0rem 0rem;
+    justify-content: middle;
+    float: right;
+    width: 985px;
+    height: auto;
+}
+
+/*Seccion Titulo Principal*/
+.secciones1 {
+    /*border: 2px yellow solid;*/
+    color: #4387b5;
+    max-height: 250px; 
+    margin: 12rem 0rem 0rem 2rem;
+}
+
+/*Seccion Titulo Secundario*/
+.secciones4 {
+    /*border: 2px violet solid;*/
+    height: auto;
+    width: auto;
+    margin: 7rem 40rem 0rem 0rem;
+    float: right;
+}
+
+/*Seccion 2do Logo Familia de Titulo Secundario*/
+.secciones5 {
+    /*border: 2px green solid;*/
+    float: right;
+    scale: 50%;
+    height: 200px;
+    width: 450px;
+}
+
+/*Seccion Logo Salud de Titulo Secundario*/
+.secciones6 {
+    /*border: 2px violet solid;*/
+    float: left;
+    scale: 50%;
+    height: 250px;
+}
+
+#icono-Familia {
+    /*border: 2px red solid;*/
+    scale: 100%;
+    float: right;
+}
+
+#icono-Salud {
+    /*border: 2px red solid;*/
+    scale: 100%;
+    float: left;
+}
+
+/*Seccion 2do Texto de Titulo Secundario*/
+.secciones3 {
+    /*border: 2px green solid;*/
+    /*border-radius: 1em;*/
+    justify-content: middle;
+    align-items: left;
+    height: 300px;
+    width: 1000px;
+    text-indent: 1em;
+    font-size: 12.5pt;
+    white-space: pre line;
+    margin: auto;
+    float: left;
+}
+
+.secciones article {
+    /*border: 2px purple solid;
+    background-color: #8db4d0;
+    background-color: #8db4d0;*/
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 1em;
+    min-height: auto; 
+    width: auto;
+    margin: 0.5rem 27rem 0rem 1.15rem; 
+}
+
+
+/*img {
+    max-width: 700px;
+    max-height: 700px;
+    float: right;
+    width: auto;
+    overflow: auto;
+}*/
+
+.contenido-ppal {
+    /*border: 2px orange solid;*/
+    /*background-color: #8db4d0;
+    border-radius: 1em;*/
+    padding: 20px;
+    min-height: 20px; 
+    height: 340px;
+    margin: 0.5rem; 
+    float: center;
+    width: auto;
+}
+
+.contenido-ppal2 {
+    /*border: 2px orange solid;*/
+    /*background-color: #8db4d0;
+    border-radius: 1em;*/
+    padding: 20px;
+    height: 310px;
+    margin: 0rem 0.5rem 0.5rem 0.5rem ; 
+    float: center;
+    width: auto;
+}
+
+
+.contenido-sec article {
+    /*border: 2px orange solid;
+    background-color: #8db4d0;
+    border-radius: 1em;*/
+    color: #ffffff;
+    padding: 20px;
+    min-height: 20px; 
+    margin: 0.5rem; 
+    float: right;
+    width: auto;
+}
+
+h3 {
+    color: #ffffff !important;
+}
