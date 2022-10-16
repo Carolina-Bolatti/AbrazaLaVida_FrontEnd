@@ -135,7 +135,7 @@ main {
     min-height: 950px;
     min-width: 400px;
     overflow: auto;
-}
+     }
 
 /*main div img {
     max-width: 50%;
@@ -251,14 +251,16 @@ main>aside {
     border: 2px green solid;
     /*border-radius: 1em;*/
     justify-content: middle;
-    align-items: left;
+    align-items: center;
     height: 300px;
     width: 1450px;
-    text-indent: 1em;
+    text-indent: 3em;
     font-size: 12.5pt;
     white-space: pre line;
-    margin: auto;
-    float: left;
+    margin: 0rem;
+    float: left;    
+    border-style: dotted;
+    border-radius: 2rem;
 }
 
 .secciones article {
@@ -272,7 +274,6 @@ main>aside {
     width: auto;
     margin: 0.5rem 27rem 0rem 1.15rem; 
 }
-
 
 /*img {
     max-width: 700px;
@@ -304,7 +305,6 @@ main>aside {
     float: center;
     width: auto;
 }
-
 
 .contenido-sec article {
     /*border: 2px orange solid;
