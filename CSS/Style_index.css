@@ -205,6 +205,10 @@ main>aside {
     overflow: auto;
 }
 
+.secciones :hover {
+    animation:color2 5s;
+}
+
 .secciones1 {
     /*border: 2px green solid;*/
     min-height: 500px; 
@@ -243,7 +247,9 @@ main>aside {
     margin: 1rem 1rem 1rem 0.25rem;
     overflow: auto;
 }
-
+.secciones3 :hover {
+    animation:color2 5s;
+}
 .secciones article {
     /*border: 2px purple solid;*/
     color: #ffffff;
@@ -254,7 +260,6 @@ main>aside {
     margin: 0.5rem; 
     overflow: auto;
 }
-
 
 /*img {
     max-width: 700px;
