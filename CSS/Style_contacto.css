@@ -259,16 +259,21 @@ main>aside {
 /*Seccion INSERTAR FORMULARIO*/
 .secciones2 {
     border: 2px green solid;
-    /*border-radius: 1em;*/
+    border-radius: 1em;
     justify-content: middle;
-    align-items: left;
+    align-items: middle;
     height: 300px;
     width: 1450px;
-    text-indent: 1em;
+    padding: 2vw 1vw 2vw 1vw;
+    /*text-indent: 1em;*/
     font-size: 12.5pt;
     white-space: pre line;
+    border-style: dotted;
     margin: auto;
-    float: left;
+    float: middle;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 .secciones article {
