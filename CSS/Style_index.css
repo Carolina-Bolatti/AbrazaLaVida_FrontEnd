@@ -20,7 +20,6 @@
         background-image: url("../img/BG_img_Base_03.png");
     }
   }
-
   @media only screen and (max-width: 768px) {
     body {
         background-image: url("../img/BG_img_Base_03.png");
