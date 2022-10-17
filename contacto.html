@@ -14,7 +14,7 @@
     <title>Abraza la Vida</title>
 </head>
 <body>
-    <div class="caja1"></div>
+      <div class="caja1"></div>
     <header>
         <div>
 
@@ -63,6 +63,32 @@
         <aside class="contenido-sec">
             <section class="secciones2">
             <!-- Seccion INSERTAR FORMULARIO -->
+            <form action="show-data.html" target="_blank">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <form>
+                        <div class="row">
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                          </div>
+                          <div class="col">
+                            <input type="text" class="form-control" placeholder="Apellido">
+                          </div>
+                        </div>
+                   
+                    <br>
+                    <p>Género:
+                        <input type="radio" name="gender" value="hombre" checked>Hombre
+                        <input type="radio" name="gender" value="Mujer">Mujer
+                        <input type="radio" name="gender" value="Otro"> Otro
+                    </p>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Mensaje"></textarea>
+                </div>
+                <input type="submit" value="Enviar">
+                <button type="reset">Reset</button>
+            </form>   
             </section>
         </aside>
     </main>
