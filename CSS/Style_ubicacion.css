@@ -155,7 +155,7 @@ main {
 
 footer {
     /*border: 2px fuchsia solid;*/
-    min-height: 50px;
+    min-height: auto;
     min-width: auto;
     position: relative;
     box-shadow: 0rem -0.5rem 1.5rem 0rem #26313d;
