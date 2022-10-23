@@ -250,11 +250,22 @@ main>aside {
     height: 250px;
 }
 
+/*ANIMACION*/
+.animate__animated {
+    /*border: 2px violet solid;*/
+    animation: animate__flipInY;
+    --animate-repeat: 2;
+    float: left;
+    scale: 50%;
+    height: 250px;
+}
+
 #icono-Contacto {
     /*border: 2px red solid;*/
     scale: 100%;
     float: left;
-    --animation: animate__flip;
+    animation: animate__flipInY;
+    --animate-repeat: 2;
 }
 
 /*Seccion INSERTAR FORMULARIO*/

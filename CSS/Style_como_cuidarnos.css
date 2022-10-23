@@ -259,6 +259,16 @@ main>aside {
     height: 250px;
 }
 
+/*ANIMACION*/
+.animate__animated {
+    /*border: 2px violet solid;*/
+    animation: animate__flipInY;
+    --animate-repeat: 2;
+    float: left;
+    scale: 50%;
+    height: 250px;
+}
+
 #icono-Familia {
     /*border: 2px red solid;*/
     scale: 100%;

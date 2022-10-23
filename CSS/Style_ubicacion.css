@@ -243,8 +243,11 @@ main>aside {
 }
 
 /*Seccion Logo Salud de Titulo Secundario*/
-.secciones6 {
+/*ANIMACION*/
+.animate__animated {
     /*border: 2px violet solid;*/
+    animation: animate__flipInY;
+    --animate-repeat: 2;
     float: left;
     scale: 50%;
     height: 250px;
@@ -256,7 +259,7 @@ main>aside {
     float: left;
 }
 
-/*Seccion INSERTAR 2 MAPAS DE LUGAR*/
+/*Seccion 2 MAPAS DE LUGAR*/
 .secciones2 {
     border: 2px green solid;
     /*border-radius: 1em;*/
