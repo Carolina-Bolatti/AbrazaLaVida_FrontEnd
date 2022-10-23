@@ -216,7 +216,7 @@ main>aside {
     /*outline-offset: 0.2rem #8db4d0;
     border-radius: 1em;*/
     text-indent: 1em;
-    font-size: 12.5pt;
+    font-size: 14.5pt;
     white-space: pre line;
     margin: 0rem 0.80rem 0rem 0rem;
     justify-content: middle;
@@ -281,7 +281,7 @@ main>aside {
     background-color: #8db4d0;
     background-color: #8db4d0;*/
     color: #ffffff;
-    padding: 20px;
+    padding: 0px;
     border-radius: 1em;
     min-height: auto; 
     width: auto;
