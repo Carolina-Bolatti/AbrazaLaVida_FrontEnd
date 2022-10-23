@@ -34,10 +34,10 @@
         <div class="lighten">
             <nav class="header-menubar">
                  <ul>
-                    <li><a href="index.html" style="color:#ff1f1f">Inicio</a></li>
-                    <li><a href="como_cuidarnos.html">Cómo cuidarnos?</a></li>
-                    <li><a href="ubicacion.html">Ubicación</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>                
+                    <li><a class="menu" @click="view = 'inicio'"><a href="index.html" style="color:#ff1f1f">Inicio</a></li>
+                    <li><a class="menu" @click="view = 'como_cuidarnos'"></a><a href="como_cuidarnos.html">Cómo cuidarnos?</a></li>
+                    <li><a class="menu" @click="view = 'ubicacion'"></a><a href="ubicacion.html">Ubicación</a></li>
+                    <li><a class="menu" @click="view = 'contacto'"></a><a href="contacto.html">Contacto</a></li>                
                 </ul>
             </nav>
             <nav class="header-iconbar">
@@ -51,6 +51,9 @@
         </div>
     </header>
     <main>
+        <div class="container">
+            <component v-blind:is="view"></component>
+        </div>
         <div class="contenido-ppal">
             <section class="secciones1">
             <!-- <img id="titulo-ppal"src="img/Abraza la Vida_Logo.png" alt="Titulo Abraza la Vida"> -->
