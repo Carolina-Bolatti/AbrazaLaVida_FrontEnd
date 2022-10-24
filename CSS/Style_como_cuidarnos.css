@@ -42,6 +42,7 @@ body {
     /*border: 5px solid #4586b4;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-image: url("../img/BG_img_Base_05.png");
+    background-repeat: no-repeat;
     overflow-y: auto;
     background-size: 100%;
     min-height: 1000px;

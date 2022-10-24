@@ -25,73 +25,59 @@
     <title>Abraza la Vida</title>
 </head>
 <body>
+    <header class="headerPrincipal">    
         <!-- flexbox -->  
-    <div class="caja1"> </div>
-    <header>
-        <div>
-           
-        </div>
-        <div class="lighten">
-            <nav class="header-menubar">
-                 <ul>
-                    <li><a class="menu" @click="view = 'inicio'"><a href="index.html" style="color:#ff1f1f">Inicio</a></li>
-                    <li><a class="menu" @click="view = 'como_cuidarnos'"></a><a href="como_cuidarnos.html">Cómo cuidarnos?</a></li>
-                    <li><a class="menu" @click="view = 'ubicacion'"></a><a href="ubicacion.html">Ubicación</a></li>
-                    <li><a class="menu" @click="view = 'contacto'"></a><a href="contacto.html">Contacto</a></li>                
-                </ul>
-            </nav>
-            <nav class="header-iconbar">
-                <ul>
-                    <li>Creadoras:</li>
-                    <i><a class="fa-brands fa-linkedin" href="https://ar.linkedin.com/in/carolina-bolatti?trk=profile-badge" target="_blank" rel="Carolina Bolatti"></a></i>
-                    <i><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/m%C3%B3nica-vivian-prypsztejn-330996232/?trk=profile-badge" target="_blank" rel="Monica Prypsztejn"></a></i>
-                    <i><a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/martina-castellanos/?trk=profile-badge" target="_blank" rel="Martina Castellanos"></a></i>          
-                </ul>
-            </nav>
+<!--    <div class="caja1"> </div> --> 
+        <div class="container">
+            <div class="header-menubar">
+
+                <a class="menu" @click="view = 'inicio'"><a href="index.html" style="color:#ff1f1f">Inicio</a>
+                <a class="menu" @click="view = 'como_cuidarnos'"></a><a href="como_cuidarnos.html">Cómo cuidarnos?</a>
+                <a class="menu" @click="view = 'ubicacion'"></a><a href="ubicacion.html">Ubicación</a>
+                <a class="menu" @click="view = 'contacto'"></a><a href="contacto.html">Contacto</a>               
+
+            </div>
+            <div class="header-iconbar">
+
+                    <h5>Creadoras:</h5>
+                    <a class="fa-brands fa-linkedin" href="https://ar.linkedin.com/in/carolina-bolatti?trk=profile-badge" target="_blank" rel="Carolina Bolatti"></a>
+                    <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/m%C3%B3nica-vivian-prypsztejn-330996232/?trk=profile-badge" target="_blank" rel="Monica Prypsztejn"></a>
+                    <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/martina-castellanos/?trk=profile-badge" target="_blank" rel="Martina Castellanos"></a>         
+
+            </div>
         </div>
     </header>
     <main>
-        <div class="container">
+        <!-- <div class="container">
             <component v-blind:is="view"></component>
-        </div>
+        </div> --> 
         <div class="contenido-ppal">
-            <section class="secciones1">
-            <!-- <img id="titulo-ppal"src="img/Abraza la Vida_Logo.png" alt="Titulo Abraza la Vida"> -->
-            </section>
             <section class="secciones4">
-                <h3>Cómo afecto la pandemia nuestra salud?</h3> 
+                    <h3>Cómo afecto la pandemia nuestra salud?</h3> 
             </section>
             <section class="secciones">
                 <article>
-                    <!-- ANIMACION -->   
+                <!-- ANIMACION -->   
                     <p style= background:#ff1f1f;>                
                     <p>La salud mental es el bienestar emocional, psíquico y social que permite llevar adelante los desafíos de la propia vida y de la comunidad en la que vivimos.
-                        <br><br>
-                        ¿Cuáles son los síntomas de la ansiedad?
-                        <br><br>
-                        Trastorno por crisis de angustia, en el que la ansiedad se presenta de forma episódica como palpitaciones,
-                        sensación de ahogo, inestabilidad, temblores o miedo a morirse;
-                        Trastorno de ansiedad generalizada, con un estado permanente de angustia;
-                        Trastorno fóbico, con miedos específicos o inespecíficos;
-                        Trastorno obsesivo-compulsivo, con ideas intrusivas y desagradables que pueden acompañarse de actos rituales
-                        que disminuyen la angustia de la obsesión (lavarse muchas veces por miedo a contagiarse, comprobar las puertas 
-                        o los enchufes, dudas continuas);
-                        Reacciones de estrés agudo o postraumático;
-                        Trastornos de adaptación a situaciones vitales adversas.
+                    <br><br>
+                    ¿Cuáles son los síntomas de la ansiedad?
+                    <br><br>
+                    Trastorno por crisis de angustia, en el que la ansiedad se presenta de forma episódica como palpitaciones,
+                    sensación de ahogo, inestabilidad, temblores o miedo a morirse;
+                    Trastorno de ansiedad generalizada, con un estado permanente de angustia;
+                    Trastorno fóbico, con miedos específicos o inespecíficos;
+                    Trastorno obsesivo-compulsivo, con ideas intrusivas y desagradables que pueden acompañarse de actos rituales
+                    que disminuyen la angustia de la obsesión (lavarse muchas veces por miedo a contagiarse, comprobar las puertas 
+                    o los enchufes, dudas continuas);
+                    Reacciones de estrés agudo o postraumático;
+                    Trastornos de adaptación a situaciones vitales adversas.
                     </p>
                     </p>
                 </article>  
             </section>            
         </div>
         <aside class="contenido-sec">
-            <section class="secciones2">
-
-            </section>
-            <!-- <img src="img/corabrazo_5_blue shadow.png" alt="Isologotipo Abraza la Vida"> -->
-            <!-- <article>
-                <h3>Cómo podemos ayudarte?</h3>        
-                <p>En “Abrazar la Vida”  proponemos ayudarte mediante información de utilidad para que aquellos que padecen, o conocen a alguien que padecio o padece, alguno de los síntomas asociados a la salud mental se encuentren mós informados a la hora de afrontarlos.</p>
-            </article> -->
             <section class="secciones5">
                 <h3>Cómo podemos ayudarte?</h3> 
             </section>
@@ -112,7 +98,7 @@
         </aside>
     </main>
     <footer>
-        <div class="lighten1">
+        <div class="container1">
         <div class="footer-logo"><a href="https://www.buenosaires.gob.ar/educacion/codo-codo" target="_blank" rel="Codo a Codo 4.0"><img src="./img/Logo Codo A Codo 4.0_1.png"></a></div>
     </footer>
     <script src="JS/scripts.js"></script>
