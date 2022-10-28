@@ -53,15 +53,25 @@ body {
     /*border: 2px violet solid;*/
     display: flex;
     align-items: center;
+    text-align: start;
     justify-content:space-between;
     height: 50px;
     width: 25%;
     margin: 0.5rem;
 }
 
+.header-menubar li {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.5rem 0.2rem 0.2rem 0.2rem;
+}
+
 .header-menubar a {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content:space-between;
     color: #ffffff;
     height: 50px;
@@ -74,6 +84,7 @@ body {
 .header-menubar a:hover {
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content:space-between;
     color:#ff1f1f;
     height: 50px;
@@ -279,6 +290,11 @@ main>aside {
 }
 
 h3 {
+    display: flex;
+    color: #4387b5 !important;
+}
+
+h5 {
     display: flex;
     color: #4387b5 !important;
 }

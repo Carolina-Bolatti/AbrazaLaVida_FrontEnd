@@ -6,13 +6,11 @@
 }
 */
 
-
 /*.caja1 {
     width: 400px;
     height: auto;
 }
 */
-
 
 @media only screen and (max-width: 320px) {
     body {
@@ -331,6 +329,19 @@ main>aside {
     width: auto;
 }
 
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 200%;
+    color: #4387b5 !important;
+}
+
 h3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Passion One', cursive;
+    font-family: 'Patua One', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     color: #ffffff !important;
 }
